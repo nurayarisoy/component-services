@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dokument</title>
+
+</head>
+<div id="awesome" class="panel" hidden>
+  <h1>Thanks!</h1>
+  <p>
+    Thank you <strong>so</strong> much for agreeing to be awesome today! Now get
+    out there and do awesome things awesomely to make the world more awesome!
+  </p>
+</div>
+<body>
+<div id="welcome" class="panel">
+  <h1>Welcome to Foobar.com!</h1>
+  <p>By clicking "OK" you agree to be awesome every day!</p>
+  <button class="button" id="okButton">OK</button>
+</div>
+
+<p>info-box works!</p>
+<button (click)="hidden=!hidden">Toggle</button>
+<p [hidden]="hidden">{{text}}</p>
+
+</body>
+
+
+</html>
+
+
