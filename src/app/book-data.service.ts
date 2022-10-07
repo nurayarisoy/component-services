@@ -8,7 +8,7 @@ import { HttpClient } from "@angular/common/http";
 
 export class BookDataService {
 
-  books = [
+ /* books = [
     {
       title: "Book #1 from Service",
       subtitle: "Subtitle #1",
@@ -21,7 +21,7 @@ export class BookDataService {
       title: "Book #3 from Service",
       subtitle: "Subtitle #3",
     },
-  ];
+  ];*/
 
   constructor(private http:HttpClient) {}
 

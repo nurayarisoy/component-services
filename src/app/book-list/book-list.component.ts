@@ -10,7 +10,7 @@ import{Observable}from "rxjs";
 })
 export class BookListComponent {
 books$: Observable<object>;
-  books = [
+ books = [
     {
       title: "Book #1",
       subtitle: "Subtitle #1",
